@@ -18,6 +18,8 @@
 #Intro{
     display: flex;
     flex-direction: row;
+    height: 100vh;
+    width: auto;
 }
 .travel-desc{
     background-color: rgb(250, 250, 210);
@@ -39,6 +41,8 @@
 }
 
 #about{
+    display: flex;
+    flex-direction: row;
     background-color: #bee4f8;
     color: #032233;
 }
