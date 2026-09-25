@@ -16,9 +16,14 @@
 #Intro{
     display: flex;
     flex-direction: row;
-
+}
+.travel-desc{
+    background-color: rgb(250, 250, 210);
 }
 
+.h1{
+    color: #88811a;
+}
 .button{
     background: linear-gradient(135deg, #ff7e5f, #feb47b);
     border: none;
