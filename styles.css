@@ -16,6 +16,7 @@
     color: #cfb417;
 }
 
+
 #Intro{
     display: flex;
     flex-direction: row;
@@ -26,6 +27,7 @@
 }
 .travel-desc{
     background-color: rgb(250, 250, 210);
+    margin: 20px;
 }
 
 .h1{
@@ -51,6 +53,10 @@ main{
     flex-direction: row;
     background-color: #bee4f8;
     color: #032233;
+}
+
+#discounts{
+    background-image: linear-gradient(#775fff, #7bcafe);
 }
 
 .about-desc{
