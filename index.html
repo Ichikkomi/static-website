@@ -6,7 +6,7 @@
     <title> Book a Travel </title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onload="startTime()">
 
     <nav class="navbar">
         
@@ -34,11 +34,9 @@
               <br> a family or a friend, even solo trips are welcome. </p>
               
               <h4> Double check current date with JS! </h4>
-              <button type="button" onclick="document.getElementById('calendar').innerHTML = Date()">
-              Click me to display Date and Time.</button>
-
-              <p id="calendar"></p>
-
+              
+              <h2>JavaScript Clock</h2>
+              <div id="txt"></div>
         </div>
     </header>
 
@@ -98,10 +96,11 @@
         <div class="Booking">
 
             <div class="Form">
-                  <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
-                    Name: <input type="text" name="fname">
-                    <input type="submit" value="Submit">
-                    </form>
+                  <h1> Double check Calendar before booking. </h1>
+                  <button type="button" onclick="document.getElementById('calendar').innerHTML = Date()">
+                  Click me to display Date and Time.</button>
+
+                 <p id="calendar"></p>
             </div>
 
             <div class="travel-logo">
