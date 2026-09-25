@@ -11,11 +11,16 @@
 }
 
 .navbar{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
     width: auto;
     background: rgb(224, 224, 250);
     color: #cfb417;
 }
-
+.li a{
+    list-style-type: none;
+}
 
 #Intro{
     display: flex;
