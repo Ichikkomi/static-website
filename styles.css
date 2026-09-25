@@ -61,6 +61,8 @@ main{
 }
 
 #discounts{
+    display: flex;
+    flex-direction: column;
     background-image: linear-gradient(#775fff, #7bcafe);
 }
 
