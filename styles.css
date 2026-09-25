@@ -11,6 +11,7 @@
 }
 
 .navbar{
+    width: auto;
     background: rgb(224, 224, 250);
     color: #cfb417;
 }
@@ -20,6 +21,8 @@
     flex-direction: row;
     height: 100vh;
     width: auto;
+    align-items: center;
+    justify-content: center;
 }
 .travel-desc{
     background-color: rgb(250, 250, 210);
@@ -39,7 +42,10 @@
     padding: 12px 24px;
     transition: opacity 0.3s ease;
 }
-
+main{
+    display: flex;
+    flex-direction: column;
+}
 #about{
     display: flex;
     flex-direction: row;
